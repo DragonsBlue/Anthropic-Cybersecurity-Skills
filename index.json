@@ -1,19 +1,19 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-10T23:42:14Z",
+  "generated_at": "2026-03-10T23:43:12Z",
   "repository": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-  "total_skills": 673,
+  "total_skills": 678,
   "total_domains": 1,
-  "total_subdomains": 28,
+  "total_subdomains": 29,
   "domain_stats": {
-    "cybersecurity": 673
+    "cybersecurity": 678
   },
   "subdomain_stats": {
     "digital-forensics": 35,
     "security-operations": 33,
     "threat-intelligence": 48,
-    "malware-analysis": 36,
-    "cloud-security": 51,
+    "malware-analysis": 37,
+    "cloud-security": 52,
     "soc-operations": 33,
     "mobile-security": 12,
     "container-security": 29,
@@ -24,7 +24,7 @@
     "devsecops": 16,
     "identity-access-management": 34,
     "vulnerability-management": 25,
-    "threat-hunting": 40,
+    "threat-hunting": 42,
     "web-application-security": 42,
     "penetration-testing": 23,
     "zero-trust-architecture": 13,
@@ -36,16 +36,17 @@
     "ransomware-defense": 5,
     "application-security": 2,
     "compliance-governance": 5,
+    "deception-technology": 1,
     "red-team": 1
   },
   "top_tags": [
     {
       "tag": "mitre-attack",
-      "count": 59
+      "count": 60
     },
     {
       "tag": "threat-hunting",
-      "count": 49
+      "count": 51
     },
     {
       "tag": "penetration-testing",
@@ -57,7 +58,7 @@
     },
     {
       "tag": "cloud-security",
-      "count": 37
+      "count": 38
     },
     {
       "tag": "owasp",
@@ -65,7 +66,7 @@
     },
     {
       "tag": "network-security",
-      "count": 34
+      "count": 35
     },
     {
       "tag": "soc",
@@ -73,11 +74,11 @@
     },
     {
       "tag": "incident-response",
-      "count": 32
+      "count": 33
     },
     {
       "tag": "forensics",
-      "count": 31
+      "count": 32
     },
     {
       "tag": "web-security",
@@ -612,6 +613,26 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/analyzing-macro-malware-in-office-documents"
+    },
+    {
+      "name": "analyzing-malicious-pdf-with-peepdf",
+      "description": "Perform static analysis of malicious PDF documents using peepdf, pdfid, and pdf-parser to extract embedded JavaScript, shellcode, and suspicious objects.",
+      "domain": "cybersecurity",
+      "subdomain": "malware-analysis",
+      "tags": [
+        "malware-analysis",
+        "pdf",
+        "peepdf",
+        "pdfid",
+        "pdf-parser",
+        "static-analysis",
+        "reverse-engineering",
+        "dfir"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/analyzing-malicious-pdf-with-peepdf"
     },
     {
       "name": "analyzing-malicious-url-with-urlscan",
@@ -4364,6 +4385,26 @@
       "path": "skills/detecting-t1548-abuse-elevation-control-mechanism"
     },
     {
+      "name": "detecting-wmi-persistence",
+      "description": "Detect WMI event subscription persistence by analyzing Sysmon Event IDs 19, 20, and 21 for malicious EventFilter, EventConsumer, and FilterToConsumerBinding creation.",
+      "domain": "cybersecurity",
+      "subdomain": "threat-hunting",
+      "tags": [
+        "threat-hunting",
+        "wmi",
+        "persistence",
+        "sysmon",
+        "t1546.003",
+        "mitre-attack",
+        "windows",
+        "dfir"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/detecting-wmi-persistence"
+    },
+    {
       "name": "eradicating-malware-from-infected-systems",
       "description": "Systematically remove malware, backdoors, and attacker persistence mechanisms from infected systems while ensuring complete eradication and preventing re-infection.",
       "domain": "cybersecurity",
@@ -5385,6 +5426,26 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/hunting-for-data-exfiltration-indicators"
+    },
+    {
+      "name": "hunting-for-dcsync-attacks",
+      "description": "Detect DCSync attacks by analyzing Windows Event ID 4662 for unauthorized DS-Replication-Get-Changes requests from non-domain-controller accounts.",
+      "domain": "cybersecurity",
+      "subdomain": "threat-hunting",
+      "tags": [
+        "threat-hunting",
+        "dcsync",
+        "active-directory",
+        "credential-access",
+        "t1003.006",
+        "mimikatz",
+        "windows",
+        "dfir"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/hunting-for-dcsync-attacks"
     },
     {
       "name": "hunting-for-dns-tunneling-with-zeek",
@@ -7271,6 +7332,26 @@
       "path": "skills/implementing-network-access-control-with-cisco-ise"
     },
     {
+      "name": "implementing-network-deception-with-honeypots",
+      "description": "Deploy and manage network honeypots using OpenCanary, T-Pot, or Cowrie to detect unauthorized access, lateral movement, and attacker reconnaissance.",
+      "domain": "cybersecurity",
+      "subdomain": "deception-technology",
+      "tags": [
+        "deception",
+        "honeypot",
+        "opencanary",
+        "cowrie",
+        "t-pot",
+        "detection",
+        "lateral-movement",
+        "network-security"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/implementing-network-deception-with-honeypots"
+    },
+    {
       "name": "implementing-network-intrusion-prevention-with-suricata",
       "description": "Deploy and configure Suricata as a network intrusion prevention system with custom rules, Emerging Threats rulesets, and inline traffic inspection for real-time threat blocking.",
       "domain": "cybersecurity",
@@ -9101,6 +9182,26 @@
       "author": "mukul975",
       "license": "Apache-2.0",
       "path": "skills/performing-cloud-forensics-investigation"
+    },
+    {
+      "name": "performing-cloud-forensics-with-aws-cloudtrail",
+      "description": "Perform forensic investigation of AWS environments using CloudTrail logs to reconstruct attacker activity, identify compromised credentials, and analyze API call patterns.",
+      "domain": "cybersecurity",
+      "subdomain": "cloud-security",
+      "tags": [
+        "cloud-security",
+        "aws",
+        "cloudtrail",
+        "forensics",
+        "incident-response",
+        "dfir",
+        "boto3",
+        "s3"
+      ],
+      "version": "1.0",
+      "author": "mukul975",
+      "license": "Apache-2.0",
+      "path": "skills/performing-cloud-forensics-with-aws-cloudtrail"
     },
     {
       "name": "performing-cloud-incident-containment-procedures",
