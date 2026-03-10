@@ -6,7 +6,7 @@ subdomain: application-security
 tags: [supply-chain, typosquatting, dependency-confusion, package-verification, pip-audit, PyPI, software-composition-analysis]
 version: "1.0"
 author: mahipal
-license: Apache-2.0
+license: MIT
 ---
 
 # Performing Supply Chain Attack Simulation

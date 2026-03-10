@@ -6,7 +6,7 @@ subdomain: threat-hunting
 tags: [NTLM-relay, Windows-events, Event-4624, NTLMSSP, Responder, SMB-signing, credential-access, T1557.001, Active-Directory]
 version: "1.0"
 author: mahipal
-license: Apache-2.0
+license: MIT
 ---
 
 # Hunting for NTLM Relay Attacks

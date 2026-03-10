@@ -6,7 +6,7 @@ subdomain: threat-hunting
 tags: [PowerShell-Empire, threat-hunting, Script-Block-Logging, base64, stager, C2, MITRE-ATT&CK, T1059.001, forensics]
 version: "1.0"
 author: mahipal
-license: Apache-2.0
+license: MIT
 ---
 
 # Analyzing PowerShell Empire Artifacts

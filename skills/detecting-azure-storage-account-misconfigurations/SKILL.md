@@ -6,7 +6,7 @@ subdomain: cloud-security
 tags: [Azure, storage-accounts, blob-storage, ADLS, SAS-tokens, encryption, public-access, cloud-misconfiguration, azure-mgmt-storage]
 version: "1.0"
 author: mahipal
-license: Apache-2.0
+license: MIT
 ---
 
 # Detecting Azure Storage Account Misconfigurations
